@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tesla Weather Apps</title>
-    <script src="tsweather.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+  
 </head>
 <body>
     <h1>My Tesla Weather App</h1>
 
+    <p>Click the button to get your coordinates.</p>
+
+    <!-- <button onclick="getLocation()">Try It</button> -->
+    <button class="btnGetloc">Get Location(will replace with on-load)</button>
+
+    <button class="btnGetWeather">Get Weather(will replace with on-load)</button>
+    
+    
+    <p id="demo"></p>
+
+    <script src="tsweather.js" type="text/javascript"></script>
 
 </body>
 </html>
